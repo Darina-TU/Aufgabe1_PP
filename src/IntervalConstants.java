@@ -76,5 +76,8 @@ class Randoms {
         double calculationInRange = min + (int)(Math.random() * (max - min + 1));
         return (int) Math.floor(calculationInRange);   // we floor it because an apartment unit cannot be a double
     }
-
+    public int RandomFromInterval(double min, double max){
+        double calculationInRange = min + (int)(Math.random() * (max - min + 1));
+        return (int) Math.floor(calculationInRange);
+    }
 }
